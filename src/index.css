@@ -1,0 +1,26 @@
+#app {
+    font-Family: 'Fira Code, monospace';
+    color: white;
+    background: linear-gradient(#07162E, #0D2A4E, #0D2A4E, #07162E);
+    height: '100%';
+    width: '100%';
+    padding: '0 20px 20px 0'
+};
+
+#pai {
+    display: 'flex';
+    flex-Direction: 'row';
+    
+    overflow: 'auto';
+    align-Items: 'center';
+    justify-Content: 'center';
+    text-Align: 'center';
+    height: '100%';
+    padding: '20px';
+    gap: '20px';
+
+    border: '2px solid black';
+    border-Radius: '20px';
+
+    background-Color: '#f0f0f0';
+}
